@@ -1,0 +1,28 @@
+{
+  "name": "mithril-meiosis-router-playing-around",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "./node_modules/.bin/http-server dist/ -p 3000",
+    "build": "./node_modules/.bin/rollup --config rollup.config.js",
+    "dev": "npm run build && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Minguet",
+  "license": "MIT",
+  "dependencies": {
+    "flyd": "^0.2.8",
+    "mithril": "^2.0.0-rc.4",
+    "patchinko": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "http-server": "^0.11.1",
+    "rollup": "^1.2.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1"
+  }
+}
